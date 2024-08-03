@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar Example</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/navbar.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="navbar.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active mr-3">
+          <a class="nav-link" data-toggle="modal" data-target="#loginModal" href="#">Login </a>
+        </li>
+
+        <li class="nav-item dropdown mr-3">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Cities
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="carosel.html">Carosel</a>
+            <a class="dropdown-item" href="cards.html">Cards</a>
+          </div>
+        </li>
+
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="#">Created By</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-login" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <!-- Login Form -->
+          <form>
+
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="email" class="form-control" id="username" placeholder="Enter username" required>
+            </div>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="welcome-container">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-3">
+          <img src="mouni .png" class="img-fluid rounded-circle" alt="Profile Picture">
+        </div>
+        <div class="col-md-3">
+          <div class="sub-message h1">Welcome</div>
+          <p class="lead">Created by:MOUNIKA TANURI</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <p class="text-light">&copy; 2024. All rights reserved.</p>
+      <a href="#" target="_blank"><img src="images/facebook.png" alt=""></a>
+      <a href="https://i.pinimg.com/564x/63/13/b6/6313b6d4f9dc17bd7ffc2a08c4bb3ffa.jpg" target="_blank"><img
+          src="images/linkdin.png" alt=""></a>
+      <a href="https://www.instagram.com/cute_devil_summi?igsh=bnBuNHp4c2ZndGpy&utm_source=qr " target="_blank"><img
+          src="images/inst.png" alt=""></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

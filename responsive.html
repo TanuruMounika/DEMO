@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+    .container{
+        display: flex;
+       
+    }
+    .content{
+        width:30%;
+        margin: 3%;
+        padding:9px;
+        box-shadow: 0px 1px 10px rgb(3, 61, 52);
+    }
+    .content img{
+     width: 200px ;
+    }
+     .fridge-img{
+        width:49%!important
+    }
+    .house-img{
+        width: 80% !important;
+    }
+    @media(max-width:430px) {
+        .container{
+            flex-direction:column;
+        }
+        .content{
+            text-align: center;
+            width: 90%;
+        }
+        .content.tittle{
+            font-size: 1.2rem;
+        }
+        
+    }
+   
+</style>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img  class="house-img"src="https://img.freepik.com/free-photo/three-dimensional-house-model_23-2151003966.jpg" alt="">
+            <h1 class="tittle">HOUSE</h1>
+            <P class="description">house is a beautiful feeling to the heart and its a amazing capturing to see other
+                then it is a looklike a exited the outside looks</P>
+            <p class="price">3.00.000</p>
+
+
+
+        </div>
+        <div class="content">
+            <img  src="https://pngfre.com/wp-content/uploads/bike-png-image-pngfre-42-1024x704.png" alt="">
+            <h1 class="tittle">BIKE</h1>
+            <P class="description">always with you until of the road call me a bike rider because i love to call bikeholic its a awsome rider to use </P>
+            <p class="price">2.00.000</p>
+
+
+
+        </div>
+        <div class="content">
+            <img src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2pvYjk0OS0xMjAucG5n.png" alt="">
+            <h1 class="tittle">CAR</h1>
+            <P class="description">The car can we drive say a lot about us .life is a so short for boring cars</P>
+            <p class="price">5.00.000</p>
+
+
+
+        </div>
+        <div class="content">
+            <img class="fridge-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiXYY0M-7ycYf59sKVWIHax_8lmKLeBTNj7A&s" alt="">
+            <h1 class="tittle">FRIDGE</h1>
+            <P class="description">ITs a cool conditioner to fresh the all vegetables and some groceries to health to a protect</P>
+            <p class="price">50.000</p>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
